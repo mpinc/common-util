@@ -1,3 +1,10 @@
-This is a public util project for mp .
+#This is a public util project for mp .
 
-npm install common-util
+##install module
+* npm install
+##Test module
+* npm test
+##Example
+var CommonUtil = require('mp-common-util);
+
+var encodedString = commonUtil.encrypt.encryptByMd5('mp-common-util');
