@@ -5,3 +5,4 @@
 var request= require('supertest');
 
 var encryptTest = require('./Encrypt.test.js').test(request);
+var sysError = require('./SystemError.test.js').test(request);
