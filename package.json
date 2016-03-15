@@ -1,6 +1,6 @@
 {
   "name": "mp-common-util",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "main": "lib/index.js",
   "description": "This is a common util module for mission public Inc ",
   "author": {
