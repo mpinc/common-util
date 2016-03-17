@@ -15,9 +15,9 @@ exports.test = function (client) {
         });
 
         it('should get a auth token  error', function (done) {
-            var authlError = sysError.NotAuthorizedError('mp error' ,"mp out error message");
-            assert(authlError.body.outMsg == sysMsg.SYS_AUTH_TOKEN_ERROR,"error body message is matched ")
-            assert(authlError.message == sysMsg.SYS_AUTH_TOKEN_ERROR,"error message is matched ")
+            var authError = sysError.NotAuthorizedError('mp error' ,"mp out error message");
+            assert(authError.body.outMsg == sysMsg.SYS_AUTH_TOKEN_ERROR,"error body message is matched ")
+            assert(authError.message == sysMsg.SYS_AUTH_TOKEN_ERROR,"error message is matched ")
             done();
         });
     });

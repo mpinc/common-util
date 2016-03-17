@@ -1,8 +1,8 @@
 #This is a public util project for mp .
 
-##install module
+##Install module
 
-* npm install
+* npm install mp-common-util
 
 ##Test module
 
