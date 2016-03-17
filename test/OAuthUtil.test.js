@@ -6,7 +6,7 @@ var commonUtil = require('../lib/index.js');
 var moduleUtil = commonUtil.ModuleUtil;
 var oAuthUtil = commonUtil.oAuthUtil ;
 
-moduleUtil.setLoginUrl('localhost');
+moduleUtil.setLoginUrl({host:"127.0.0.1",port:"8080"});
 exports.test = function (client) {
     describe('service: oauth test', function () {
         it('should get a oauth error', function (done) {
